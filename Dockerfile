@@ -1,6 +1,6 @@
-FROM alpine:latest
+FROM arm32v7/alpine:latest
 
-MAINTAINER resyst-it <florian.cauzardjarry@gmail.com>
+MAINTAINER ryanrf <ryan.will.be@gmail.com>
 
 RUN apk --update add bind
 
